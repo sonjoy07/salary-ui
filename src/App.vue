@@ -11,7 +11,7 @@
           <b-navbar-nav class="ml-auto">
             <b-nav-item v-if="!token" href="/login">Login</b-nav-item>
 
-            <b-nav-item-dropdown right v-if="token">
+            <b-nav-item-dropdown right v-if="token"> 
               <!-- Using 'button-content' slot -->
 
               <template #button-content>
